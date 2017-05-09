@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id='reports']/field[@name='footer']" position="after">
+            <newline/>
+            <separator name="description" string="Logo"/>
+            <field xfill="0" xexpand="1" name="logo_footer" img_width="80" img_height="80" height="80" width="80" widget="image"/>
+    </xpath>
+</data>
